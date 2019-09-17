@@ -1,0 +1,74 @@
+#sidenav {
+    background-color: black;
+    width: 250px;
+    height: 100%;
+    position: absolute;
+}
+
+#list {
+    padding-bottom: 500px;
+}
+
+.sidenav {
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    padding-top: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+
+.sidenav a {
+    text-indent: 20px;
+    line-height: 80px;
+    color: #999999;
+    font-size: px;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: lightseagreen;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#page-content {
+    
+    margin-left: 251px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+#form {
+    float: left;
+}
+
+#standings {
+    vertical-align: top;
+    float: left;
+}
+
+tr, th, td {
+    border: 1px solid;
+}
+
+
+
+th {
+    height: 50px;
+}
+
+td {
+    text-align: left;
+    height: 30px;
+    padding: 10px;
+    vertical-align: bottom;
+}
+
+#static, table > caption{
+    color: lightcoral;
+    text-align: center;
+}
+
+#register {
+    position: inherit;
+}

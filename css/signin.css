@@ -1,0 +1,133 @@
+:root {
+    --input-padding-x: .75rem;
+    --input-padding-y: .75rem;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  
+  .form-signin {
+    color: #0daae2;
+    width: 420px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  
+  .form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  #not a:hover{
+    text-decoration: none;
+  }
+  
+  .form-label-group > input,
+  .form-label-group > label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+  }
+  
+  .form-label-group > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #495057;
+    transition:all  0.2s;
+  }
+  
+  .form-label-group label{
+    color: transparent;
+  }
+  
+  .form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+  }
+  
+  .form-label-group input:not(:placeholder-shown) ~ label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+  }
+
+  .label-group {
+      position: relative;
+      margin-bottom: 1rem;
+  }
+
+  .label-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: transparent;
+    transition:all  .2s;
+  }
+
+  .float {
+    float: right;
+  }
+
+  .select{
+    width: 255px;
+    min-height: 47px !important;
+  }
+  
+  .select :focus{
+    border:0;
+  }
+  
+  .select option{
+    margin: 0 auto;
+  }
+  
+  
+  .label-group > input,
+  .label-group > label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+  }
+  
+  .label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+  }
+  
+  .label-group input:not(:placeholder-shown) ~ label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    color: lightseagreen;
+    font-size: 12px;
+  }
+  
+  .float-l{
+    width: 45%;
+    max-height: 50px !important;
+      border: 1px solid #ced4da;
+  }
+  
+  .form-control:focus{
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+  }
+
+  @media (max-width: 768px) {
+      body{
+          padding-top: 40px;
+      }
+      .text-center .btn {
+          font-size: 21px
+      }
+  }
+
+  @media (max-width: 578px) {
+      .form-signin{
+          width: 80%;
+      }
+  }
